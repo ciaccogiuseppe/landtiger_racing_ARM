@@ -1,0 +1,21 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+".\objects\core_cm3.o"
+".\objects\led.o"
+".\objects\glcd_spi_lpc1700.o"
+".\objects\irq.o"
+".\objects\btn_start.o"
+".\objects\logo.o"
+".\objects\background.o"
+".\objects\car1.o"
+".\objects\emptycar.o"
+".\objects\bgbars.o"
+".\objects\gameover.o"
+".\objects\items.o"
+".\objects\can.o"
+--strict --scatter ".\Objects\Application.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Application.map" -o .\Objects\Application.axf

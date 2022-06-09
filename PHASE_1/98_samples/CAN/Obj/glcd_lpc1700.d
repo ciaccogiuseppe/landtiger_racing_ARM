@@ -1,0 +1,9 @@
+.\obj\glcd_lpc1700.o: GLCD_LPC1700.c
+.\obj\glcd_lpc1700.o: ./LPC17xx.h
+.\obj\glcd_lpc1700.o: E:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\glcd_lpc1700.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\glcd_lpc1700.o: E:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\glcd_lpc1700.o: E:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\glcd_lpc1700.o: ./system_LPC17xx.h
+.\obj\glcd_lpc1700.o: GLCD.h
+.\obj\glcd_lpc1700.o: Font_24x16.h

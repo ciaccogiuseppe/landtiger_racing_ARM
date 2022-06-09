@@ -1,0 +1,18 @@
+T285C 000:017.192   SEGGER J-Link V7.22b Log File
+T285C 000:017.423   DLL Compiled: Jun 17 2021 17:22:49
+T285C 000:017.438   Logging started @ 2022-05-05 19:06
+T285C 000:017.452 - 17.459ms
+T285C 000:017.480 JLINK_SetWarnOutHandler(...)
+T285C 000:017.497 - 0.025ms
+T285C 000:017.515 JLINK_OpenEx(...)
+T285C 000:025.036   Looking for J-Link GUI Server exe at: E:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T285C 000:025.218   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T285C 000:327.585   Failed to connect to J-Link GUI Server.
+T285C 006:536.090   
+  ***** Error: 
+T285C 006:536.137   Cannot connect to J-Link
+T285C 006:587.181 - 6569.696ms returns "Cannot connect to J-Link"
+T285C 007:871.973 JLINK_Close()
+T285C 007:878.258 - 6.317ms
+T285C 007:878.299   
+T285C 007:878.312   Closed
